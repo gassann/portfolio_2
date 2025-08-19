@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Portfolio</div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#products" class="nav-link" data-route="products">Products</a>
+                <a href="https://gassann.hatenablog.com/" class="nav-link" data-route="blog">Blog</a>
+                <a href="#profile" class="nav-link" data-route="profile">Profile</a>
+                <a href="#news" class="nav-link" data-route="news">News</a>
+                <a href="#contact" class="nav-link" data-route="contact">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <!-- Products Page -->
+        <div id="products" class="page active">
+            <div class="container">
+                <h1>Products</h1>
+                <div class="products-grid" id="products-grid">
+                    <!-- Products will be dynamically generated -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Profile Page -->
+        <div id="profile" class="page">
+            <div class="container">
+                <h1>Profile</h1>
+                <div class="profile-content">
+                    <!-- Main Profile Card -->
+                    <div class="profile-main-card">
+                        <div class="profile-header">
+                            <div class="profile-image">
+                                <img src="profile_image.JPG" alt="Profile" class="profile-img">
+                            </div>
+                            <div class="profile-intro">
+                                <h2>衣笠 尚暉（がっさん）</h2>
+                                <p class="profile-title">データサイエンティスト</p>
+                                <div class="profile-description">
+                                    <p>始めまして、がっさんと申します。<br>学生時代はエンジニアとしてアプリ開発等に携わった後、機械学習の楽しさを知りデータサイエンティストとして就職し、現在はAI領域のコンサルタントとして活動しています。技術を通じて人々の生活をちょっぴり豊かにするプロダクトを生み出していきたいと考えています。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Experience Section -->
+                    <div class="profile-section">
+                        <div class="section-header">
+                            <h3>Experience</h3>
+                        </div>
+                        <div class="section-content">
+                            <div class="experience-timeline-clean">
+                            
+                                <div class="timeline-item-clean">
+                                    <div class="timeline-date-clean">2014 - 2019</div>
+                                    <div class="timeline-content-clean">
+                                        <div class="timeline-title-clean">筑波大学</div>
+                                        <div class="timeline-subtitle-clean">生命環境学群生物学類</div>
+                                    </div>
+                                </div>
+                                <div class="timeline-item-clean">
+                                    <div class="timeline-date-clean">2019 - 2022</div>
+                                    <div class="timeline-content-clean">
+                                        <div class="timeline-title-clean">株式会社SIGNATE</div>
+                                        <div class="timeline-subtitle-clean">データサイエンティスト</div>
+                                    </div>
+                                </div>
+                                <div class="timeline-item-clean">
+                                    <div class="timeline-date-clean">2022 - 現在</div>
+                                    <div class="timeline-content-clean">
+                                        <div class="timeline-title-clean">Deloitte</div>
+                                        <div class="timeline-subtitle-clean">コンサルタント</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Section -->
+                    <div class="skills-container">
+                                <div class="skills-title">
+                                    <h3>Skills</h3>
+                                </div>
+                                <div class="skills-categories">
+                                    <div class="skill-category">
+                                        <h4>Technology</h4>
+                                        <div class="skill-list">
+                                            <div class="skill-item">統計検定準1級</div>
+                                            <div class="skill-item">応用情報技術者</div>
+                                            <div class="skill-item">Tableau DATA SABER</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-category">
+                                        <h4>Finance</h4>
+                                        <div class="skill-list">
+                                            <div class="skill-item">簿記2級</div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-category">
+                                        <h4>Other</h4>
+                                        <div class="skill-list">
+                                            <div class="skill-item">TOEIC 835</div>
+                                            <div class="skill-item">英検準1級</div>
+                                            <div class="skill-item">世界遺産検定3級</div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+
+                    <!-- Skills Section -->
+                    <div class="profile-section">
+                        <div class="section-content">
+                            <div class="skills-grid-wrapper">
+                                <div class="skills-dark-container">
+                                    <div class="skill-category-dark">
+                                        <div class="skill-category-header">
+                                            <div class="skill-category-icon programming">
+                                                <span>&lt;/&gt;</span>
+                                            </div>
+                                            <h4>プログラミング言語</h4>
+                                        </div>
+                                        <div class="skill-items-dark">
+                                            <div class="skill-item-dark">
+                                                <div class="skill-icon python">🐍</div>
+                                                <div class="skill-info">
+                                                    <span class="skill-name-dark">Python</span>
+                                                    <div class="skill-stars">
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item-dark">
+                                                <div class="skill-icon javascript">JS</div>
+                                                <div class="skill-info">
+                                                    <span class="skill-name-dark">JavaScript</span>
+                                                    <div class="skill-stars">
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item-dark">
+                                                <div class="skill-icon typescript">TS</div>
+                                                <div class="skill-info">
+                                                    <span class="skill-name-dark">TypeScript</span>
+                                                    <div class="skill-stars">
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star">★</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item-dark">
+                                                <div class="skill-icon php">PHP</div>
+                                                <div class="skill-info">
+                                                    <span class="skill-name-dark">PHP</span>
+                                                    <div class="skill-stars">
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star">★</span>
+                                                        <span class="star">★</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills-dark-container">
+                                    <div class="skill-category-dark">
+                                        <div class="skill-category-header">
+                                            <div class="skill-category-icon frontend">
+                                                <span>💻</span>
+                                            </div>
+                                            <h4>フロントエンド</h4>
+                                        </div>
+                                        <div class="skill-items-dark">
+                                            <div class="skill-item-dark">
+                                                <div class="skill-icon react">⚛️</div>
+                                                <div class="skill-info">
+                                                    <span class="skill-name-dark">React</span>
+                                                    <div class="skill-stars">
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star">★</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item-dark">
+                                                <div class="skill-icon nextjs">N</div>
+                                                <div class="skill-info">
+                                                    <span class="skill-name-dark">Next.js</span>
+                                                    <div class="skill-stars">
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star">★</span>
+                                                        <span class="star">★</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item-dark">
+                                                <div class="skill-icon vue">V</div>
+                                                <div class="skill-info">
+                                                    <span class="skill-name-dark">Vue.js</span>
+                                                    <div class="skill-stars">
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star">★</span>
+                                                        <span class="star">★</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="skill-item-dark">
+                                                <div class="skill-icon tailwind">🎨</div>
+                                                <div class="skill-info">
+                                                    <span class="skill-name-dark">Tailwind CSS</span>
+                                                    <div class="skill-stars">
+                                                        <span class="star filled">★</span>
+                                                        <span class="star filled">★</span>
+                                                        <span class="star">★</span>
+                                                        <span class="star">★</span>
+                                                        <span class="star">★</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- News Page -->
+        <div id="news" class="page">
+            <div class="container">
+                <h1>News</h1>
+                <div class="news-list">
+                    <article class="news-card">
+                        <div class="news-date">2025.08.10</div>
+                        <h3 class="news-title">「FirstLine~文学クイズ~」をiOSにてリリースしました</h3>
+                        <p class="news-description">書き出しから文学作品を当てるクイズアプリがApp Storeでリリースされました。ユーザーの皆様からのフィードバックをお待ちしております。</p>
+                        <div class="news-tags">
+                            <span class="news-tag release">リリース</span>
+                        </div>
+                    </article>
+                    
+                    <article class="news-card">
+                        <div class="news-date">2025.05.10</div>
+                        <h3 class="news-title">ポートフォリサイト開設のお知らせ</h3>
+                        <p class="news-description">これまでに作成した作品やブログ発信を目的としたポートフォリオサイトを開設いたしました。</p>
+                        <div class="news-tags">
+                            <span class="news-tag announcement">お知らせ</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Page -->
+        <div id="contact" class="page">
+            <div class="container">
+                <h1>Contact</h1>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>お問い合わせ</h2>
+                        <p>ご依頼やご質問がございましたら、お気軽にお問い合わせください。</p>
+                    </div>
+                    <form class="contact-form" action="https://formsubmit.co/nktng117@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="ポートフォリオサイトからのお問い合わせ">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://nktng117.github.io/portfolio/thank-you.html">
+                        <div class="form-group">
+                            <label for="name">お名前</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">メールアドレス</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">メッセージ</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">送信</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4 class="footer-title">Portfolio</h4>
+                    <p class="footer-description">データサイエンティスト・コンサルタント</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">リンク</h4>
+                    <ul class="footer-links">
+                        <li><a href="#products" class="footer-link">Products</a></li>
+                        <li><a href="#profile" class="footer-link">Profile</a></li>
+                        <li><a href="#news" class="footer-link">News</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">SNS</h4>
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link">
+                            <span>🐙</span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="#" class="footer-social-link">
+                            <span>💼</span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="footer-social-link">
+                            <span>🐦</span>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
